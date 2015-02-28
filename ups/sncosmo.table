@@ -1,5 +1,4 @@
 setupRequired(python)
-setupRequired(astropy)
 setupRequired(numpy)
 envPrepend(PYTHONPATH, ${PRODUCT_DIR}/lib/python)
 envPrepend(LD_LIBRARY_PATH, ${PRODUCT_DIR}/lib)
