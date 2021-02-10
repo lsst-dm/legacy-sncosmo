@@ -1,4 +1,5 @@
 setupRequired(astropy_helpers)
+setupRequired(python_extinction)
 
 envPrepend(PYTHONPATH, ${PRODUCT_DIR}/lib/python)
 envPrepend(LD_LIBRARY_PATH, ${PRODUCT_DIR}/lib)
